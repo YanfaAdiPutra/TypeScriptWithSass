@@ -1,5 +1,6 @@
 import * as React from 'react';
 const logo = require('../assets/logo.svg');
+import { Button } from 'antd';
 
 class App extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class App extends React.Component {
         <p className="App-intro">
           To get started, edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <Button type="primary">Hello World</Button>
       </div>
     );
   }
